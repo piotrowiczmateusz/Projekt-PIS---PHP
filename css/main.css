@@ -1,0 +1,170 @@
+body {
+  background: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+  float: left;
+  text-align:left;
+}
+
+.red {
+  color: #FF6051;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.green {
+  color: #8fc800;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.logo {
+  height: 70px!important;
+  line-height: 70px!important;
+  margin: 0 auto;
+  border: none!important;
+}
+
+.logo:hover {
+  border: none!important;
+  text-decoration: none!important;
+}
+
+#header,
+#footer {
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  background: #f5f5f5;
+}
+
+#header {
+  margin-bottom: 60px;
+  background: #3a3b3b;
+  color: #fff
+}
+
+#header h1 {
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #3a3b3b;
+  color: #fff;
+  border: none;
+
+  -webkit-transition: all 200ms linear;
+-moz-transition: all 200ms linear;
+-ms-transition: all 200ms linear;
+-o-transition: all 200ms linear;
+transition: all 200ms linear;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #5A5B5B;
+  color: #fff;
+}
+
+#header a {
+  height: 67px;
+  line-height: 67px;
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  border-top: 3px solid transparent;
+
+  -webkit-transition: all 200ms linear;
+-moz-transition: all 200ms linear;
+-ms-transition: all 200ms linear;
+-o-transition: all 200ms linear;
+transition: all 200ms linear;
+}
+
+#header a:hover {
+  border-top: 3px solid #fff;
+  text-decoration: none;
+}
+
+.panel {
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(200,200,200,100);
+  box-shadow: 1px 1px 5px 1px rgba(200,200,200,100);
+}
+
+.article {
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 55px;
+  margin-bottom: 40px;
+}
+
+.article h2,
+.author,
+.date {
+  margin: 15px 0;
+}
+
+.date {
+  color: #b6b6b6;
+  font-size: 12px;
+}
+
+.article-content {
+  padding: 15px;
+}
+
+#footer {
+  margin-top: 60px;
+  text-align: center;
+  background-color: #3a3b3b;
+  color: #fff;
+}
+
+.tab-pane,
+.panel {
+  padding: 15px;
+}
+
+.nav-tabs > li {
+  color: #3a3b3b;
+  width: 50%;
+  text-align: center;
+}
+
+.nav-tabs > li.active {
+  background-color: #3a3b3b;
+  color: #fff;
+}
+
+.nav-tabs > li.active a,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #3a3b3b;
+  color: #fff;
+  border: none;
+}
+
+
+
+.nav-tabs > li a {
+  color: #3a3b3b;
+  border-radius: 0!important;
+  border: none;
+  text-align: center;
+}
+
+.nav-tabs > li.active a {
+  border: none;
+}
+
+.nav-tabs > li.active a {
+  color: #fff
+}
