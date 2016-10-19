@@ -1,3 +1,7 @@
+/* -------------------------------
+   GENERAL
+---------------------------------- */
+
 body {
   background: #f5f5f5;
   font-family: 'Open Sans', sans-serif;
@@ -8,22 +12,39 @@ body {
   text-align:left;
 }
 
-.red {
-  color: #FF6051;
-}
-
-.alert {
-  margin-bottom: 0;
-}
-
-.green {
-  color: #8fc800;
-}
-
 .right {
   float: right;
   text-align: right;
 }
+
+.green { color: #8fc800; }
+.red { color: #FF6051; }
+.alert { margin-bottom: 0; }
+
+.btn {
+  background-color: #3a3b3b;
+  color: #fff;
+  border: none;
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #5A5B5B;
+  color: #fff;
+}
+
+/* -------------------------------
+   HEADER & FOOTER
+---------------------------------- */
 
 .logo {
   height: 70px!important;
@@ -55,27 +76,6 @@ body {
   margin: 0 auto;
 }
 
-.btn {
-  background-color: #3a3b3b;
-  color: #fff;
-  border: none;
-
-  -webkit-transition: all 200ms linear;
--moz-transition: all 200ms linear;
--ms-transition: all 200ms linear;
--o-transition: all 200ms linear;
-transition: all 200ms linear;
-}
-
-.btn a {
-  color: #fff;
-}
-
-.btn:hover {
-  background-color: #5A5B5B;
-  color: #fff;
-}
-
 #header a {
   height: 67px;
   line-height: 67px;
@@ -85,16 +85,27 @@ transition: all 200ms linear;
   border-top: 3px solid transparent;
 
   -webkit-transition: all 200ms linear;
--moz-transition: all 200ms linear;
--ms-transition: all 200ms linear;
--o-transition: all 200ms linear;
-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 #header a:hover {
   border-top: 3px solid #fff;
   text-decoration: none;
 }
+
+#footer {
+  margin-top: 60px;
+  text-align: center;
+  background-color: #3a3b3b;
+  color: #fff;
+}
+
+/* -------------------------------
+   CONTENT
+---------------------------------- */
 
 .panel {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(200,200,200,100);
@@ -118,21 +129,15 @@ transition: all 200ms linear;
   font-size: 12px;
 }
 
+.tab-pane,
+.panel,
 .article-content {
   padding: 15px;
 }
 
-#footer {
-  margin-top: 60px;
-  text-align: center;
-  background-color: #3a3b3b;
-  color: #fff;
-}
-
-.tab-pane,
-.panel {
-  padding: 15px;
-}
+/* -------------------------------
+   NAV TABS
+---------------------------------- */
 
 .nav-tabs > li {
   color: #3a3b3b;
@@ -152,8 +157,6 @@ transition: all 200ms linear;
   border: none;
 }
 
-
-
 .nav-tabs > li a {
   color: #3a3b3b;
   border-radius: 0!important;
@@ -163,8 +166,5 @@ transition: all 200ms linear;
 
 .nav-tabs > li.active a {
   border: none;
-}
-
-.nav-tabs > li.active a {
   color: #fff
 }

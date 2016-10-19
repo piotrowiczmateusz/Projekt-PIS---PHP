@@ -18,7 +18,7 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link href="css/main.css" rel="stylesheet" />
+      <link href="../css/main.css" rel="stylesheet" />
 
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
@@ -38,14 +38,13 @@
             </div>
             <div class="col-md-6 right">
               <?php
-                if(isset($_SESSION['name'])) {
+                if(isset($_SESSION['name']) || isset($_COOKIE['name'])) {
                   echo "
                     <a href='dashboard.php?admin=true'><i class='fa fa-dashboard'></i> Admin Panel</a>
                     <span> | </span>
-                    <a href='logout.php'><i class='fa fa-sign-out'></i> Wyloguj</a>
+                    <a href='../controllers/LoginController.php?logout=true'><i class='fa fa-sign-out'></i> Wyloguj</a>
                   ";
                 }
-                //  else if(isset($_COOKIE[$cookie_name]))
               ?>
             </div>
           </div>
